@@ -1,0 +1,697 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22E0DDDDA1F41FF2B1338451 /* Pods_MODApisUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE36A3A4A766ED700A42E68F /* Pods_MODApisUITests.framework */; };
+		360B5E641C5248DF1C246C70 /* Pods_MODApis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8391BF7B5757DA51C0866C1 /* Pods_MODApis.framework */; };
+		60683E2F1671A467E717E311 /* Pods_MODApisTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16E201410C0856B990814492 /* Pods_MODApisTests.framework */; };
+		D9E72D791D30D33A0023CFC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E72D781D30D33A0023CFC5 /* AppDelegate.swift */; };
+		D9E72D7B1D30D33A0023CFC5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E72D7A1D30D33A0023CFC5 /* ViewController.swift */; };
+		D9E72D7E1D30D33A0023CFC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9E72D7C1D30D33A0023CFC5 /* Main.storyboard */; };
+		D9E72D801D30D33A0023CFC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9E72D7F1D30D33A0023CFC5 /* Assets.xcassets */; };
+		D9E72D831D30D33A0023CFC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9E72D811D30D33A0023CFC5 /* LaunchScreen.storyboard */; };
+		D9E72D8E1D30D33A0023CFC5 /* MODApisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E72D8D1D30D33A0023CFC5 /* MODApisTests.swift */; };
+		D9E72D991D30D33A0023CFC5 /* MODApisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E72D981D30D33A0023CFC5 /* MODApisUITests.swift */; };
+		D9E72DA71D30D43F0023CFC5 /* Stock.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E72DA61D30D43F0023CFC5 /* Stock.swift */; };
+		D9E72DA91D30D9AE0023CFC5 /* LocalDataHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E72DA81D30D9AE0023CFC5 /* LocalDataHandler.swift */; };
+		D9E72DAB1D30E1D70023CFC5 /* db.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = D9E72DAA1D30E1D70023CFC5 /* db.sqlite3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D9E72D8A1D30D33A0023CFC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9E72D6D1D30D33A0023CFC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9E72D741D30D33A0023CFC5;
+			remoteInfo = MODApis;
+		};
+		D9E72D951D30D33A0023CFC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9E72D6D1D30D33A0023CFC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9E72D741D30D33A0023CFC5;
+			remoteInfo = MODApis;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F6D1D6F1C4E1AA7D3C580B2 /* Pods-MODApis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MODApis.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MODApis/Pods-MODApis.debug.xcconfig"; sourceTree = "<group>"; };
+		16E201410C0856B990814492 /* Pods_MODApisTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MODApisTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		25B0BCEECAFE239B3F886CF4 /* Pods-MODApis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MODApis.release.xcconfig"; path = "Pods/Target Support Files/Pods-MODApis/Pods-MODApis.release.xcconfig"; sourceTree = "<group>"; };
+		2741D91DFD209E42F2EE2619 /* Pods-MODApisUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MODApisUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MODApisUITests/Pods-MODApisUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7697055886E90F799FFE9402 /* Pods-MODApisTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MODApisTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MODApisTests/Pods-MODApisTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C8391BF7B5757DA51C0866C1 /* Pods_MODApis.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MODApis.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE36A3A4A766ED700A42E68F /* Pods_MODApisUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MODApisUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9E72D751D30D33A0023CFC5 /* MODApis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MODApis.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9E72D781D30D33A0023CFC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D9E72D7A1D30D33A0023CFC5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D9E72D7D1D30D33A0023CFC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D9E72D7F1D30D33A0023CFC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D9E72D821D30D33A0023CFC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D9E72D841D30D33A0023CFC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9E72D891D30D33A0023CFC5 /* MODApisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MODApisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9E72D8D1D30D33A0023CFC5 /* MODApisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MODApisTests.swift; sourceTree = "<group>"; };
+		D9E72D8F1D30D33A0023CFC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9E72D941D30D33A0023CFC5 /* MODApisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MODApisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9E72D981D30D33A0023CFC5 /* MODApisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MODApisUITests.swift; sourceTree = "<group>"; };
+		D9E72D9A1D30D33A0023CFC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9E72DA61D30D43F0023CFC5 /* Stock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stock.swift; sourceTree = "<group>"; };
+		D9E72DA81D30D9AE0023CFC5 /* LocalDataHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalDataHandler.swift; sourceTree = "<group>"; };
+		D9E72DAA1D30E1D70023CFC5 /* db.sqlite3 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = db.sqlite3; sourceTree = "<group>"; };
+		E6C102E5DB165CF8519505AE /* Pods-MODApisTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MODApisTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MODApisTests/Pods-MODApisTests.release.xcconfig"; sourceTree = "<group>"; };
+		F4B84CD7EBE5359ED2D4B988 /* Pods-MODApisUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MODApisUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MODApisUITests/Pods-MODApisUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9E72D721D30D33A0023CFC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				360B5E641C5248DF1C246C70 /* Pods_MODApis.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9E72D861D30D33A0023CFC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60683E2F1671A467E717E311 /* Pods_MODApisTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9E72D911D30D33A0023CFC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22E0DDDDA1F41FF2B1338451 /* Pods_MODApisUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42F7B24853E1633C600E7980 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0F6D1D6F1C4E1AA7D3C580B2 /* Pods-MODApis.debug.xcconfig */,
+				25B0BCEECAFE239B3F886CF4 /* Pods-MODApis.release.xcconfig */,
+				7697055886E90F799FFE9402 /* Pods-MODApisTests.debug.xcconfig */,
+				E6C102E5DB165CF8519505AE /* Pods-MODApisTests.release.xcconfig */,
+				F4B84CD7EBE5359ED2D4B988 /* Pods-MODApisUITests.debug.xcconfig */,
+				2741D91DFD209E42F2EE2619 /* Pods-MODApisUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6F4A4230C1609292FE409516 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C8391BF7B5757DA51C0866C1 /* Pods_MODApis.framework */,
+				16E201410C0856B990814492 /* Pods_MODApisTests.framework */,
+				CE36A3A4A766ED700A42E68F /* Pods_MODApisUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9E72D6C1D30D33A0023CFC5 = {
+			isa = PBXGroup;
+			children = (
+				D9E72D771D30D33A0023CFC5 /* MODApis */,
+				D9E72D8C1D30D33A0023CFC5 /* MODApisTests */,
+				D9E72D971D30D33A0023CFC5 /* MODApisUITests */,
+				D9E72D761D30D33A0023CFC5 /* Products */,
+				42F7B24853E1633C600E7980 /* Pods */,
+				6F4A4230C1609292FE409516 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D9E72D761D30D33A0023CFC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9E72D751D30D33A0023CFC5 /* MODApis.app */,
+				D9E72D891D30D33A0023CFC5 /* MODApisTests.xctest */,
+				D9E72D941D30D33A0023CFC5 /* MODApisUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9E72D771D30D33A0023CFC5 /* MODApis */ = {
+			isa = PBXGroup;
+			children = (
+				D9E72D781D30D33A0023CFC5 /* AppDelegate.swift */,
+				D9E72D7A1D30D33A0023CFC5 /* ViewController.swift */,
+				D9E72DA81D30D9AE0023CFC5 /* LocalDataHandler.swift */,
+				D9E72DAA1D30E1D70023CFC5 /* db.sqlite3 */,
+				D9E72DA61D30D43F0023CFC5 /* Stock.swift */,
+				D9E72D7C1D30D33A0023CFC5 /* Main.storyboard */,
+				D9E72D7F1D30D33A0023CFC5 /* Assets.xcassets */,
+				D9E72D811D30D33A0023CFC5 /* LaunchScreen.storyboard */,
+				D9E72D841D30D33A0023CFC5 /* Info.plist */,
+			);
+			path = MODApis;
+			sourceTree = "<group>";
+		};
+		D9E72D8C1D30D33A0023CFC5 /* MODApisTests */ = {
+			isa = PBXGroup;
+			children = (
+				D9E72D8D1D30D33A0023CFC5 /* MODApisTests.swift */,
+				D9E72D8F1D30D33A0023CFC5 /* Info.plist */,
+			);
+			path = MODApisTests;
+			sourceTree = "<group>";
+		};
+		D9E72D971D30D33A0023CFC5 /* MODApisUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D9E72D981D30D33A0023CFC5 /* MODApisUITests.swift */,
+				D9E72D9A1D30D33A0023CFC5 /* Info.plist */,
+			);
+			path = MODApisUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9E72D741D30D33A0023CFC5 /* MODApis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9E72D9D1D30D33A0023CFC5 /* Build configuration list for PBXNativeTarget "MODApis" */;
+			buildPhases = (
+				25AB72B8331101B48F8F7B62 /* [CP] Check Pods Manifest.lock */,
+				D9E72D711D30D33A0023CFC5 /* Sources */,
+				D9E72D721D30D33A0023CFC5 /* Frameworks */,
+				D9E72D731D30D33A0023CFC5 /* Resources */,
+				47619065DD6278C0E3B87989 /* [CP] Embed Pods Frameworks */,
+				B7551EE1E4C5B4ACEA7AC637 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MODApis;
+			productName = MODApis;
+			productReference = D9E72D751D30D33A0023CFC5 /* MODApis.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D9E72D881D30D33A0023CFC5 /* MODApisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9E72DA01D30D33A0023CFC5 /* Build configuration list for PBXNativeTarget "MODApisTests" */;
+			buildPhases = (
+				576B3080376E16ED8CAC45E9 /* [CP] Check Pods Manifest.lock */,
+				D9E72D851D30D33A0023CFC5 /* Sources */,
+				D9E72D861D30D33A0023CFC5 /* Frameworks */,
+				D9E72D871D30D33A0023CFC5 /* Resources */,
+				D9EFD8D881B24027415ED3BB /* [CP] Embed Pods Frameworks */,
+				8FC6BAA75021BCF767E47CDF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9E72D8B1D30D33A0023CFC5 /* PBXTargetDependency */,
+			);
+			name = MODApisTests;
+			productName = MODApisTests;
+			productReference = D9E72D891D30D33A0023CFC5 /* MODApisTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D9E72D931D30D33A0023CFC5 /* MODApisUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9E72DA31D30D33A0023CFC5 /* Build configuration list for PBXNativeTarget "MODApisUITests" */;
+			buildPhases = (
+				97029B0279DEDA9DC875CF0B /* [CP] Check Pods Manifest.lock */,
+				D9E72D901D30D33A0023CFC5 /* Sources */,
+				D9E72D911D30D33A0023CFC5 /* Frameworks */,
+				D9E72D921D30D33A0023CFC5 /* Resources */,
+				1E8473EAB6009D0DC4CB87EB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9E72D961D30D33A0023CFC5 /* PBXTargetDependency */,
+			);
+			name = MODApisUITests;
+			productName = MODApisUITests;
+			productReference = D9E72D941D30D33A0023CFC5 /* MODApisUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9E72D6D1D30D33A0023CFC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Kvana;
+				TargetAttributes = {
+					D9E72D741D30D33A0023CFC5 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					D9E72D881D30D33A0023CFC5 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = D9E72D741D30D33A0023CFC5;
+					};
+					D9E72D931D30D33A0023CFC5 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = D9E72D741D30D33A0023CFC5;
+					};
+				};
+			};
+			buildConfigurationList = D9E72D701D30D33A0023CFC5 /* Build configuration list for PBXProject "MODApis" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D9E72D6C1D30D33A0023CFC5;
+			productRefGroup = D9E72D761D30D33A0023CFC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9E72D741D30D33A0023CFC5 /* MODApis */,
+				D9E72D881D30D33A0023CFC5 /* MODApisTests */,
+				D9E72D931D30D33A0023CFC5 /* MODApisUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9E72D731D30D33A0023CFC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9E72DAB1D30E1D70023CFC5 /* db.sqlite3 in Resources */,
+				D9E72D831D30D33A0023CFC5 /* LaunchScreen.storyboard in Resources */,
+				D9E72D801D30D33A0023CFC5 /* Assets.xcassets in Resources */,
+				D9E72D7E1D30D33A0023CFC5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9E72D871D30D33A0023CFC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9E72D921D30D33A0023CFC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E8473EAB6009D0DC4CB87EB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MODApisUITests/Pods-MODApisUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		25AB72B8331101B48F8F7B62 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		47619065DD6278C0E3B87989 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MODApis/Pods-MODApis-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		576B3080376E16ED8CAC45E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8FC6BAA75021BCF767E47CDF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MODApisTests/Pods-MODApisTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97029B0279DEDA9DC875CF0B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B7551EE1E4C5B4ACEA7AC637 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MODApis/Pods-MODApis-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9EFD8D881B24027415ED3BB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MODApisTests/Pods-MODApisTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9E72D711D30D33A0023CFC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9E72DA91D30D9AE0023CFC5 /* LocalDataHandler.swift in Sources */,
+				D9E72D7B1D30D33A0023CFC5 /* ViewController.swift in Sources */,
+				D9E72D791D30D33A0023CFC5 /* AppDelegate.swift in Sources */,
+				D9E72DA71D30D43F0023CFC5 /* Stock.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9E72D851D30D33A0023CFC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9E72D8E1D30D33A0023CFC5 /* MODApisTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9E72D901D30D33A0023CFC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9E72D991D30D33A0023CFC5 /* MODApisUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D9E72D8B1D30D33A0023CFC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9E72D741D30D33A0023CFC5 /* MODApis */;
+			targetProxy = D9E72D8A1D30D33A0023CFC5 /* PBXContainerItemProxy */;
+		};
+		D9E72D961D30D33A0023CFC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9E72D741D30D33A0023CFC5 /* MODApis */;
+			targetProxy = D9E72D951D30D33A0023CFC5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D9E72D7C1D30D33A0023CFC5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9E72D7D1D30D33A0023CFC5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D9E72D811D30D33A0023CFC5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9E72D821D30D33A0023CFC5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D9E72D9B1D30D33A0023CFC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D9E72D9C1D30D33A0023CFC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D9E72D9E1D30D33A0023CFC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F6D1D6F1C4E1AA7D3C580B2 /* Pods-MODApis.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MODApis/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kvana.MODApis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D9E72D9F1D30D33A0023CFC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25B0BCEECAFE239B3F886CF4 /* Pods-MODApis.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MODApis/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kvana.MODApis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D9E72DA11D30D33A0023CFC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7697055886E90F799FFE9402 /* Pods-MODApisTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MODApisTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kvana.MODApisTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MODApis.app/MODApis";
+			};
+			name = Debug;
+		};
+		D9E72DA21D30D33A0023CFC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6C102E5DB165CF8519505AE /* Pods-MODApisTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MODApisTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kvana.MODApisTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MODApis.app/MODApis";
+			};
+			name = Release;
+		};
+		D9E72DA41D30D33A0023CFC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4B84CD7EBE5359ED2D4B988 /* Pods-MODApisUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = MODApisUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kvana.MODApisUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MODApis;
+			};
+			name = Debug;
+		};
+		D9E72DA51D30D33A0023CFC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2741D91DFD209E42F2EE2619 /* Pods-MODApisUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = MODApisUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kvana.MODApisUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MODApis;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9E72D701D30D33A0023CFC5 /* Build configuration list for PBXProject "MODApis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9E72D9B1D30D33A0023CFC5 /* Debug */,
+				D9E72D9C1D30D33A0023CFC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9E72D9D1D30D33A0023CFC5 /* Build configuration list for PBXNativeTarget "MODApis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9E72D9E1D30D33A0023CFC5 /* Debug */,
+				D9E72D9F1D30D33A0023CFC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9E72DA01D30D33A0023CFC5 /* Build configuration list for PBXNativeTarget "MODApisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9E72DA11D30D33A0023CFC5 /* Debug */,
+				D9E72DA21D30D33A0023CFC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9E72DA31D30D33A0023CFC5 /* Build configuration list for PBXNativeTarget "MODApisUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9E72DA41D30D33A0023CFC5 /* Debug */,
+				D9E72DA51D30D33A0023CFC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9E72D6D1D30D33A0023CFC5 /* Project object */;
+}
